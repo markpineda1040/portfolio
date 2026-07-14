@@ -178,7 +178,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 2rem;
-            align-items: center;
+            align-items: flex-start;
         }
 
         @media (max-width: 768px) {
@@ -201,6 +201,17 @@
             border-radius: 50px;
             font-size: 0.9rem;
             font-weight: 600;
+        }
+
+        .skill-category {
+            margin-bottom: 1.5rem;
+        }
+
+        .skill-category h4 {
+            color: var(--secondary-color);
+            font-size: 1.1rem;
+            margin-bottom: 0.8rem;
+            font-weight: 700;
         }
 
         /* Services Section */
@@ -524,7 +535,6 @@
     <div class="container">
         <section class="hero" id="hero">
             <h1>Mark Pineda</h1>
-            <p class="subtitle">Full Stack Developer | Creative Problem Solver</p>
             
             <div class="hero-info">
                 <div>
@@ -551,24 +561,49 @@
                 <div>
                     <p>
                         I'm a passionate developer from the Philippines with a strong focus on creating innovative solutions 
-                        and delivering high-quality digital experiences. With expertise in full-stack development, I'm committed 
-                        to continuous learning and staying updated with the latest technologies.
+                        and delivering high-quality digital experiences. I'm committed to continuous learning and staying updated 
+                        with the latest technologies.
                     </p>
                     <p>
                         My goal is to transform ideas into reality through clean, efficient code and user-centered design.
                     </p>
                 </div>
                 <div>
-                    <h3>Key Skills</h3>
-                    <div class="about-skills">
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">React</span>
-                        <span class="skill-tag">Node.js</span>
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">HTML/CSS</span>
-                        <span class="skill-tag">SQL</span>
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">Web Design</span>
+                    <div class="skill-category">
+                        <h4>💼 Software Skills</h4>
+                        <div class="about-skills">
+                            <span class="skill-tag">Microsoft Office</span>
+                            <span class="skill-tag">Microsoft Designer</span>
+                            <span class="skill-tag">Microsoft Paint</span>
+                            <span class="skill-tag">Figma</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>🎯 Key Skills</h4>
+                        <div class="about-skills">
+                            <span class="skill-tag">Teamwork</span>
+                            <span class="skill-tag">Research</span>
+                            <span class="skill-tag">Documentation</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>🛠️ Technical Skills</h4>
+                        <div class="about-skills">
+                            <span class="skill-tag">Networking (Cisco Packet Tracer)</span>
+                            <span class="skill-tag">Java (NetBeans)</span>
+                            <span class="skill-tag">Web Design (HTML/CSS)</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>🗣️ Languages</h4>
+                        <div class="about-skills">
+                            <span class="skill-tag">English (UK)</span>
+                            <span class="skill-tag">Filipino</span>
+                            <span class="skill-tag">Cebuano</span>
+                        </div>
                     </div>
                 </div>
             </div>
